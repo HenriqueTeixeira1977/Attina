@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    scroll-behavior: smooth;
+    transition: all .3s ease;
+}
+body{
+    background: rgb(143,49,49);
+    background: linear-gradient(0deg, rgba(143,49,49,1) 16%, rgba(255,255,255,1) 64%);    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;  
+}
+header{
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    margin: 20px;
+    padding: 0px 7%;
+}
+header .logo  a{
+    font-size: 5rem;
+    color: brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    background-color: rgba(127, 255, 212, 0);
+    width: 100vw;    
+}
+.time{background-color: rgba(0, 255, 0, 0);
+    font-size: 20px;
+}
+.time h2{background-color: rgba(255, 0, 0, 0);
+    font-size: 20px;
+}
+small{background-color: rgba(137, 43, 226, 0);
+    font-size: 10px;
+}
