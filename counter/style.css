@@ -24,12 +24,12 @@ body{
     height: 100vh;  
 }
 header{
-    background-color: rgb(0, 255, 255);
+    background-color: rgba(0, 255, 255, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1024px;
+    max-width: 750px;
     height: 150px;
     margin: 0px;
     padding: 0px 7%;
@@ -41,9 +41,9 @@ header .logo  a{
     color: rgb(165, 42, 42);
 }
 .container{background-color: rgba(130, 0, 0, 0);
-    max-width: 1024px;
+    max-width: 750px;
     width: 90vw;
-    height: 90vh;  
+    height: 60vh;  
     border-radius: 5px;    
 }
 
