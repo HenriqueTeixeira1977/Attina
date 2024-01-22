@@ -10,7 +10,7 @@
     text-align: center;
     list-style: none;
     scroll-behavior: smooth;
-    transition: all .3s ease;
+    transition: all .2s ease;
 }
 body{
     background: rgb(143,49,49);
@@ -19,7 +19,7 @@ body{
     align-items: center;
     flex-direction: column;
     margin: auto;
-    width: 100vw;
+    width: 100%;
     height: 100vh;  
 }
 header{
@@ -27,26 +27,142 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 50px;
-    margin: 20px;
+    width: 100%;
+    max-width: 1024px;
+    height: 150px;
+    margin: 0px;
     padding: 0px 7%;
 }
 header .logo  a{
     font-size: 5rem;
-    color: brown;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: rgb(165, 42, 42);
 }
-main{
-    background-color: rgba(127, 255, 212, 0);
-    width: 100vw;    
+.container{background-color: rgba(130, 0, 0, 0);
+    max-width: 1024px;
+    width: 90vw;
+    height: 90vh;  
+    border-radius: 5px;    
+}
+
+.texto{background-color: rgba(0, 255, 13, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    height: 100px;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 1;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px 0px rgb(0, 0, 0);
+}
+.texto h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: brown;
+}
+.texto h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.texto h3{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+.countdown{background-color: rgb(251, 255, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
 }
 .time{background-color: rgba(0, 255, 0, 0);
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    font-size: 30px;
 }
-.time h2{background-color: rgba(255, 0, 0, 0);
-    font-size: 20px;
+.time h2{background-color: rgb(4, 0, 255);
+    font-size: 1.5rem;
+    color:brown;
+    text-align: center;
+    font-weight: 200;
 }
-small{background-color: rgba(137, 43, 226, 0);
-    font-size: 10px;
+small{background-color: rgb(137, 43, 226);
+    margin-top: 0px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+#days {/*background-color: rgba(255, 255, 255, 0);*/
+    font-size: 4rem
+}
+#hours {/*background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px black;*/
+    font-size: 4rem;
+}
+#minutes {/*background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px black;*/
+    font-size: 4rem;
+}
+#seconds {/*background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px black;*/
+    font-size: 4rem;
+}
+
+
+.button {background-color: rgba(117, 117, 117, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 10px;
+}
+.button a{
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    padding: 0px 0px;
+    border: 2px solid black;
+    color: aliceblue;    
+}
+.button a:hover{
+    background-color: brown;
 }

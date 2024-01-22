@@ -1,4 +1,4 @@
-const lounchDate = new Date("2024-05-20T00:00:00");
+const launchDate = new Date("2024-03-22T00:00:00");
 
 function countdown() {
     const currentDate = new Date();
@@ -7,8 +7,8 @@ function countdown() {
 
     const totalSeconds = Math.floor(difference / 1000);
 
-    const days = Math.floor(totalSeconds / (24 * 60 *60));
-    const hours = Math.floor((totalSeconds % (24 * 60 *60)) / (60 * 60));
+    const days = Math.floor(totalSeconds / (24 * 60 * 60));
+    const hours = Math.floor((totalSeconds % (24 * 60 * 60)) / (60 * 60));
     const minutes = Math.floor((totalSeconds % (60 * 60)) / 60);
     const seconds = Math.floor(totalSeconds % 60);
     
@@ -20,4 +20,4 @@ function countdown() {
 
 countdown();
 
-setInterval( countdown, 1000);
+setInterval(countdown, 1000);
