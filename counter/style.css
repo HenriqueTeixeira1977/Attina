@@ -36,7 +36,7 @@ header{
     align-items: center;
     width: 100%;
     max-width: 750px;
-    height: 150px;
+    height: 100px;
     margin: 0px;
     padding: 0px 7%;
 }
@@ -46,10 +46,18 @@ header .logo  a{
     text-shadow: 5px 5px 5px;
     color: rgb(255, 255, 255);
 }
-.container{background-color: rgba(255, 209, 209, 0.554);
+header .logo a:hover{
+    font-size: 5.5rem;
+    font-weight: 300;
+    color: brown;
+    text-shadow: 5px 5px 5px white;
+}
+
+
+.container{background-color: rgba(255, 209, 209, 0.763);
     max-width: 750px;
     width: 90vw;
-    height: 60vh;  
+    height: 70%;  
     border-radius: 5px;    
 }
 
@@ -59,7 +67,7 @@ header .logo  a{
     align-items: center;
     flex-direction: column;
     width: 95%;
-    height: 100px;
+    height: 90px;
     margin: 20px auto;
     font-weight: 100;
     line-height: 1;
@@ -68,16 +76,16 @@ header .logo  a{
     /*box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.452);*/
 }
 .texto h1{
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 300;
     color: brown;
 }
 .texto h2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 300;
 }
 .texto h3{
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 200;
 }
 
@@ -139,7 +147,7 @@ small{background-color: rgba(137, 43, 226, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 55%;
     height: 50px;
     padding: 0px 0px;
     border: 1px solid black;
@@ -148,4 +156,35 @@ small{background-color: rgba(137, 43, 226, 0);
 .button a:hover{
     background-color: brown;
     color: aliceblue;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+
+.redes{background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    height: 70px;
+}
+.redes a {background-color: rgba(255, 255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: brown;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px 0px 0px 0px;
+}
+.redes a:hover{
+    background-color: brown;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
 }
