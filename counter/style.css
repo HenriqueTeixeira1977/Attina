@@ -16,7 +16,7 @@ body{
     /*background: rgb(143,49,49);
     background: linear-gradient(0deg, rgba(143,49,49,1) 16%, rgba(255,255,255,1) 64%);    
     */
-    background: url(../img/bg_counter.jpg);
+    background: url(../img/bg_counter.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
